@@ -1,0 +1,61 @@
+body {
+    background-color: #f0f0f5;
+    color: #555555;
+    font: 17px Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+}
+#main-header {
+    background-color: #a3a3c2;
+    color: black
+}
+#links {
+    background-color: #e0e0eb;
+}
+#links a {
+    color: #808080;
+    padding-right: 17px;
+}
+#links li {
+    display: inline;
+}
+#view-port {
+    background-image: url('dex.jpg');
+    background-position: center;
+    text-align: center;
+}
+#message-box {
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+}
+#sidewall {
+    float: right;
+    background-image: url(sif.jpg);
+    display: inline-block;
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #777;
+    border-radius: 50%;
+    color: black;
+    box-sizing: border-box;
+}
+#pic-name {
+    text-align: center;
+    text-transform: capitalize;
+}
+#main-footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
